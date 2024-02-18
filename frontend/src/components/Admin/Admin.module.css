@@ -1,0 +1,90 @@
+.chapter {
+  text-align: center;
+  margin: 22px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 22px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #ff5b06;
+  color: white;
+}
+
+.formToggleBtnWrapper {
+  text-align: center;
+}
+
+.formToggleBtn {
+  background-color: #ff5b06;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.formToggleBtn:hover {
+  background-color: #ff732b;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.formLabel {
+  margin-bottom: 10px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.formTextarea {
+  height: 120px;
+}
+
+.formButton {
+  background-color: #ff5b06;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.formButton:hover {
+  background-color: #ff732b;
+}
+
+.imgContainer {
+  width: 400px;
+}
+
+.selectedImage {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.app_wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+.app_wrapper_content{
+  margin: 0px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 213.75px);
+  gap: 55px;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 1320px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 213.75px);
+  }
+}

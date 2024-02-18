@@ -1,0 +1,29 @@
+:global(.swiper-pagination-bullet-active) {
+  background-color: #ff5b06;
+}
+
+:global(.swiper-button-next) {
+  color: #ff5b06;
+}
+
+:global(.swiper-button-prev) {
+  color: #ff5b06;
+}
+
+:global(.swiper-pagination) {
+  position: static;
+}
+
+:global(.swiper-slide) {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 424px) {
+  :global(.swiper-button-next) {
+    display: none;
+  }
+  :global(.swiper-button-prev) {
+    display: none;
+  }
+}

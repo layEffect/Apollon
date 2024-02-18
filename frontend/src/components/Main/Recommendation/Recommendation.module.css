@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Open+Sans:wght@700&display=swap");
+
+.recommendation {
+  border-bottom: 32px solid #f7f7f7;
+  width: 100vw;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionTitle h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  margin: 13px;
+}
+
+.sectionTitle h3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 13px;
+  color: #ff5b06;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 213.75px);
+  gap: 55px;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 1320px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 213.75px);
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionTitle h2 {
+    font-size: 20px;
+    margin: 8px;
+  }
+  .sectionTitle h3 {
+    font-size: 14px;
+    margin: 8px;
+  }
+}

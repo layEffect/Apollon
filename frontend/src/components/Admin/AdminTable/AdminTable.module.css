@@ -1,0 +1,47 @@
+.table {
+  margin: 10px;
+  width: 99%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.th,
+.td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.th {
+  background-color: #7b7b7b;
+  color: #fff;
+}
+
+.img {
+  width: 220px;
+  height: auto;
+  margin: 10px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.formTextarea {
+  height: 120px;
+}
+
+.imageInput {
+  display:flex;
+  flex-direction: column;
+}
+
+.button{
+  cursor: pointer;
+  margin: 5px;
+  height: 40px;
+  width: 140px;
+}

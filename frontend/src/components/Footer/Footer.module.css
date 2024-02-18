@@ -1,0 +1,44 @@
+footer {
+  width: 100vw;
+  background: #ff5b06;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  padding: 5px;
+  width: clamp(310px, 50vw, 510px);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  border-radius: 50%;
+}
+
+.social img {
+  width: clamp(30px, 5vw, 50px);
+  margin-left: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.social a:hover{
+  transform: scale(1.05);
+}
+
+.text {
+  text-align: center;
+  font-size: clamp(12px, 2vw, 16px);
+}

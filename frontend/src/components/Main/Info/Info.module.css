@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Open+Sans:wght@700&display=swap');
+
+.info_container{
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 68vw;
+}
+
+.first_block h1{
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 700;
+}
+
+.first_block p{
+  margin: 10px;
+  text-indent: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 30px;
+}
+
+.second_block h1{
+  margin: 20px 0 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(18px, 2.5vw, 26px);
+  font-weight: 700;
+}
+
+.second_block p{
+  margin: 10px;
+  text-indent: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 30px;
+}
+
+.second_block li{
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 30px;
+}
+
+.third_block h1{
+  margin: 20px 0 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(18px, 2.5vw, 26px);
+  font-weight: 700;
+}
+
+.third_block p{
+  margin: 10px;
+  text-indent: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 30px;
+}
+
+.third_block li{
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 30px;
+}
+
+.fourth_block{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+ul {
+  list-style-image: url(file:///D:/Studies/4-%D1%8B%D0%B9%20%D0%BA%D1%83%D1%80%D1%81%201-%D1%8B%D0%B9%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/apollon/src/assets/images/dot.png);
+  
+}
+
+@media (max-width: 767px) {
+  .info_container{
+    width: 80vw;
+  }
+}
